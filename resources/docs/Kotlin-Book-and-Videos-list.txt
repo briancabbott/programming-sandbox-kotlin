@@ -1,0 +1,57 @@
+
+Functional Kotlin
+By Mario Arias, Rivu Chakraborty
+February 2018
+
+Hands-On Data Structures and Algorithms with Kotlin
+By Chandra Sekhar Nayak, Rivu Chakraborty
+February 2019
+
+Hands-on Design Patterns with Kotlin
+By Alexey Soshin
+June 2018
+
+Kotlin Programming By Example: 
+Build real-world Android and web applications the Kotlin way 
+by Iyanu Adelekan 
+March 28, 2018
+
+Learn Kotlin Programming - Second Edition
+By Stephen Samuel, Stefan Bocutiu
+May 2019
+
+Learning Concurrency in Kotlin
+By Miguel Angel Castiblanco Torres
+July 2018
+
+Mastering Kotlin
+By Nate Ebel
+October 2019
+
+Reactive Programming in Kotlin
+By Rivu Chakraborty
+December 2017
+
+
+=========
+
+
+The Complete Kotlin Developer Course
+[Video]
+By Rob Percival, Nick Walter
+July 2019
+
+Hands-On Kotlin Web Development with Ktor
+[Video]
+By Mike Møller Nielsen
+June 2020
+
+Kotlin Design Patterns
+[Video]
+By Yusuf Saber
+January 2020
+
+Learn Kotlin Programming
+[Video]
+By Book of Brains
+May 2018

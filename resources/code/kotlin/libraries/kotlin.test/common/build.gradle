@@ -1,0 +1,33 @@
+description = 'Kotlin Test Common'
+
+apply plugin: 'kotlin-platform-common'
+
+configurePublishing(project)
+
+jvmTarget = "1.6"
+
+dependencies {
+    compile kotlinStdlib("common")
+    testCompile project(":kotlin-test:kotlin-test-annotations-common")
+}
+
+jar {
+    manifestAttributes(manifest, project, 'Test')
+}
+
+configureSourcesJar()
+configureJavadocJar()
+
+tasks.withType(org.jetbrains.kotlin.gradle.dsl.KotlinCompile) {
+    kotlinOptions.freeCompilerArgs += "-Xallow-kotlin-package"
+}
+
+compileKotlinCommon {
+    kotlinOptions {
+        freeCompilerArgs += [
+                "-module-name", project.name,
+                "-Xopt-in=kotlin.contracts.ExperimentalContracts",
+        ]
+    }
+}
+
